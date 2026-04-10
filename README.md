@@ -31,7 +31,7 @@ cp env.example .env
 
 ```env
 GEMINI_API_KEY=your_gemini_api_key_here
-MODEL=gemini-2.0-flash
+MODEL=gemini-3.1-flash-lite-preview
 GROQ_API_KEY=your_groq_key_here          # optional
 HUGGINGFACEHUB_API_TOKEN=your_hf_token   # optional
 ```
