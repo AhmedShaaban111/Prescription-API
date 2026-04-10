@@ -1,0 +1,49 @@
+{
+  "doctor": "Sarah Mohamed",
+  "patient": "Shaimaa Mohamed Abdel Wahab",
+  "date": "29-01-2024",
+  "medicines": [
+    {
+      "name": "Ferratrop",
+      "dose": null,
+      "frequency": "once daily",
+      "duration": "1 month",
+      "route": "oral",
+      "notes": null
+    },
+    {
+      "name": "Calmag-d",
+      "dose": null,
+      "frequency": "once daily",
+      "duration": "1 month",
+      "route": "oral",
+      "notes": null
+    },
+    {
+      "name": "Davalindi",
+      "dose": null,
+      "frequency": "once daily",
+      "duration": "1 month",
+      "route": "oral",
+      "notes": null
+    },
+    {
+      "name": "Duphalac",
+      "dose": null,
+      "frequency": "twice daily",
+      "duration": "1 week",
+      "route": "oral",
+      "notes": "one tablespoon"
+    },
+    {
+      "name": "Betolvex",
+      "dose": null,
+      "frequency": "once weekly",
+      "duration": "1 month",
+      "route": "intramuscular",
+      "notes": "one injection"
+    }
+  ],
+  "raw_text": "GlobeMed Egypt - Claim Form. Patient: شيماء محمد عبد الوهاب. ID: 53587478. Date: 29-1-2024. Diagnosis: تم الكشف وعمل سونار والحالة حامل في الأسبوع الرابع عشر وتحتاج إلى المتابعة والعلاج. Medications: R/ Ferratrop 1x1 لمدة شهر, R/ Calmag-d 1x1 لمدة شهر, R/ Davalindi 1x1 لمدة شهر, R/ Duphalac 1x2 معلقة كبيرة لمدة أسبوع, R/ Betolvex حقنة كل أسبوع لمدة شهر. Outpatient Services: CBC, Urine analysis. Doctor: سارة محمد.",
+  "confidence": "high"
+}

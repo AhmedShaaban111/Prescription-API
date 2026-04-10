@@ -1,0 +1,61 @@
+[
+  {
+    "query": {
+      "name": "XXXNOTEXIST999",
+      "dose": "10mg",
+      "frequency": "once daily",
+      "duration": "5 days"
+    },
+    "status": "NOT_FOUND",
+    "status_label": "Not Found [X]",
+    "method": "—",
+    "match_count": 0,
+    "matches": []
+  },
+  {
+    "query": {
+      "name": "AMARYL",
+      "dose": "6mg",
+      "frequency": "once daily",
+      "duration": "30 days"
+    },
+    "status": "NOT_FOUND",
+    "status_label": "Not Found [X]",
+    "method": "Groq Judge",
+    "match_count": 0,
+    "matches": []
+  },
+  {
+    "query": {
+      "name": "Ondansetron",
+      "dose": "8mg",
+      "frequency": "twice daily",
+      "duration": "5 days"
+    },
+    "status": "FOUND",
+    "status_label": "Found [OK]",
+    "method": "Groq Judge",
+    "match_count": 1,
+    "matches": [
+      {
+        "trade_name": "ONDANION",
+        "similarity": 0.8605,
+        "llm_confidence": "high",
+        "llm_reason": "Ondansetron matches closely with ONDANION, a likely spelling variant or brand name."
+      }
+    ]
+  },
+  {
+    "query": {
+      "name": "Metformin",
+      "dose": "500mg",
+      "frequency": "twice daily",
+      "duration": "30 days"
+    },
+    "status": "NOT_FOUND",
+    "status_label": "Not Found [X]",
+    "method": "Groq Judge",
+    "match_count": 0,
+    "matches": []
+  }
+]

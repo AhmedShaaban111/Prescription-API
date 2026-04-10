@@ -1,0 +1,25 @@
+{
+  "doctor": "Dr. Mohamed (signature illegible)",
+  "patient": "Ahmed Mohamed Jaber",
+  "date": "2022/03/22",
+  "medicines": [
+    {
+      "name": "Flixonase spray",
+      "dose": null,
+      "frequency": "twice daily",
+      "duration": null,
+      "route": "nasal",
+      "notes": "One puff in each nostril twice daily (بخة بالأنف 2 x 2)"
+    },
+    {
+      "name": "Mosedin",
+      "dose": null,
+      "frequency": "once daily (evening)",
+      "duration": null,
+      "route": "oral",
+      "notes": "One tablet in the evening (قرص مساءً)"
+    }
+  ],
+  "raw_text": "RMC مجمع الرازي الطبي\nالتشخيص: Nasal Allergy\nالاسم: أ/ أحمد محمد جابر السن: 27\nالتاريخ: 22/3/2022\n1- Flixonal sp\nبخة بالأنف 2 x 2\n2- Moseden\nقرص مساءً\nتوقيع الطبيب: د/ محمد ...\nمحافظة المنوفية - شبين الكوم\nشارع صبري أبو علم - برج أجياد مدينة\n01014567662 01129992470 0482226680\ninfo@alrazi-hospital.com www.alrazi-hospital.com @ALRAZY.RMC",
+  "confidence": "high"
+}
