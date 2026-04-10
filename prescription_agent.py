@@ -4,14 +4,14 @@ prescription_agent.py — Handwritten Prescription OCR via Gemini
 
 v6 — Single strong pass + smart deduplication:
 
-  الـ dual-run consensus كان بيضيّع أدوية لأنه كان بياخد
-  الـ intersection مش الـ union.
+  The dual-run consensus was losing medicines because it took
+  the intersection instead of the union.
 
-  الحل الأبسط والأموثق:
-    - Pass واحد بـ prompt قوي جداً يقرأ كل الأدوية
-    - Deduplication بعده عشان يشيل التكرار
-    - لو الـ OCR confidence منخفض → نشغّل pass تاني
-      بس نحتفظ بالـ UNION مش الـ intersection
+  The simpler and more reliable approach:
+    - Single pass with a very strong prompt that reads all medicines
+    - Deduplication afterwards to remove duplicates
+    - If OCR confidence is low → run a second pass
+      but keep the UNION, not the intersection
 """
 
 import base64

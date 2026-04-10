@@ -2,20 +2,20 @@
 drug_pipeline.py — Universal Pharmacy Item Matcher
 ===================================================
 
-الهدف الأساسي: تعرف "الدواء ده إيه" — سواء كتب الدكتور:
-  - اسم تجاري (brand):          Nexium, Gaviscon, Ciprobay
-  - مادة فعالة (active/INN):    esomeprazole, ciprofloxacin, metformin
-  - اسم مكتوب غلط / مختصر:     Ciprafen, Esomepraz, Alcamylac
-  - بالعربي:                    امارايل, ديابيكون
-  - مكمل غذائي / OTC:           Vitamin C 1000, Omega 3
+Primary goal: identify "what is this drug" — whether the doctor wrote:
+  - A brand/trade name:               Nexium, Gaviscon, Ciprobay
+  - An active ingredient (INN):       esomeprazole, ciprofloxacin, metformin
+  - A misspelled or abbreviated name: Ciprafen, Esomepraz, Alcamylac
+  - An Arabic name:                   امارايل, ديابيكون
+  - A supplement or OTC product:      Vitamin C 1000, Omega 3
 
 Pipeline:
-  Level 1 — Exact:  الاسم موجود مباشرة في الـ DB
-  Level 2 — Fuzzy:  قريب من اسم في الـ DB (typo / abbreviation)
-  Level 3 — Gemini: اسأل الـ LLM — ده brand ولا active ولا إيه؟
-                    → لو active  : دور على brands في الـ DB
-                    → لو brand   : دور عليه وعلى alternatives
-                    في الحالتين : وضّح للمستخدم نوع الإدخال
+  Level 1 — Exact:  name found directly in the DB
+  Level 2 — Fuzzy:  close to a name in the DB (typo / abbreviation)
+  Level 3 — Gemini: ask the LLM — is this a brand, active ingredient, or what?
+                    → if active : search for brands in the DB
+                    → if brand  : search for it and its alternatives
+                    in both cases: clarify the input type to the user
 """
 
 import os, re, json, pickle
