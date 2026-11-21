@@ -13,6 +13,16 @@ AI-powered handwritten prescription OCR and drug matching API, built with FastAP
 
 ---
 
+---
+
+## Architecture
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/aaea4a37-dcab-435d-8037-78f939be7970" alt="Prescription API architecture diagram" width="600">
+</p>
+
+---
+
 ## Setup
 
 ### 1. Clone the repository
