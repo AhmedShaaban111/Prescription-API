@@ -15,15 +15,22 @@ AI-powered handwritten prescription OCR and drug matching API, built with FastAP
 
 ## Setup
 
-### 1. Install dependencies
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/AhmedShaaban111/Prescription-API.git
+cd Prescription-API
+```
+
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Configure environment variables
+### 3. Configure environment variables
 
-Copy `.env.example` to `.env` and fill in your API keys:
+Copy `env.example` to `.env` and fill in your API keys:
 
 ```bash
 cp env.example .env
@@ -36,7 +43,7 @@ GROQ_API_KEY=your_groq_key_here          # optional
 HUGGINGFACEHUB_API_TOKEN=your_hf_token   # optional
 ```
 
-### 3. Run the API
+### 4. Run the API
 
 ```bash
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
@@ -184,3 +191,10 @@ prescription_api/
 
 > ⚠️ AI-assisted analysis — for research purposes only.  
 > Always verify with a licensed pharmacist before dispensing.
+
+
+---
+
+## License
+
+MIT - see [LICENSE](LICENSE).
